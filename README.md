@@ -2,6 +2,8 @@
 
 一个用于浏览 SeaweedFS 命令的 Web 界面。
 
+![预览](images/img.png)
+
 ## 快速部署
 
 ### 一键部署（推荐）
