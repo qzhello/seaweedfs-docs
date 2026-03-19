@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaweedFS 命令文档</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>SeaweedFS 命令文档</h1>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="搜索命令...">
+      </div>
+    </header>
+
+    <div id="command-bar" class="command-bar">
+      <div class="command-bar-content">
+        <code id="command-output-bar"></code>
+      </div>
+      <button id="copy-btn-bar" class="copy-btn-bar">复制</button>
+    </div>
+
+    <main>
+      <nav class="sidebar">
+        <h2>Shell 子命令</h2>
+        <div id="shell-categories"></div>
+
+        <h2>主命令</h2>
+        <div id="main-commands-collapsed">
+          <div class="category-header" id="main-commands-header">
+            <span>点击展开</span>
+            <span class="toggle">▶</span>
+          </div>
+          <ul id="command-list" style="display:none;"></ul>
+        </div>
+      </nav>
+
+      <section class="content">
+        <div id="command-detail">
+          <p class="placeholder">选择一个命令查看详情</p>
+        </div>
+      </section>
+
+      <aside class="builder-panel" id="builder-panel">
+        <div class="builder-header">
+          <h3>命令参数</h3>
+        </div>
+        <div class="builder-content">
+          <div id="flag-inputs"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+seaweedfs-master/
+public/docs/
+*.tar.gz
+.DS_Store
+.idea/
+*.log
+_bmad/
+.claude/

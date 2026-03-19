@@ -1,0 +1,15 @@
+{
+  "name": "seaweedfs-docs",
+  "version": "1.0.0",
+  "description": "SeaweedFS Command Documentation Browser",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && mkdir -p dist/docs && cp -r public/docs/* dist/docs/",
+    "preview": "vite preview",
+    "extract-docs": "node scripts/extract-docs.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
