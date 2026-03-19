@@ -109,3 +109,8 @@ seaweedfs-docs-deploy.tar.gz
 │   └── commands.json
 └── start.sh
 ```
+
+
+# 原项目链接
+
+https://github.com/seaweedfs/seaweedfs
